@@ -1,0 +1,608 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "032f1ed81ae920f9647fb20eea199116",
+    "packages": [
+        {
+            "name": "container-interop/container-interop",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/container-interop/container-interop.git",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/container-interop/container-interop/zipball/79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "reference": "79cbf1341c22ec75643d841642dd5d6acd83bdb8",
+                "shasum": ""
+            },
+            "require": {
+                "psr/container": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Interop\\Container\\": "src/Interop/Container/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
+            "homepage": "https://github.com/container-interop/container-interop",
+            "time": "2017-02-14T19:40:03+00:00"
+        },
+        {
+            "name": "nikic/fast-route",
+            "version": "v1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/FastRoute.git",
+                "reference": "b5f95749071c82a8e0f58586987627054400cdf6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/b5f95749071c82a8e0f58586987627054400cdf6",
+                "reference": "b5f95749071c82a8e0f58586987627054400cdf6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "FastRoute\\": "src/"
+                },
+                "files": [
+                    "src/functions.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Nikita Popov",
+                    "email": "nikic@php.net"
+                }
+            ],
+            "description": "Fast request router for PHP",
+            "keywords": [
+                "router",
+                "routing"
+            ],
+            "time": "2017-01-19T11:35:12+00:00"
+        },
+        {
+            "name": "paragonie/random_compat",
+            "version": "v2.0.10",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paragonie/random_compat.git",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "reference": "634bae8e911eefa89c1abfbf1b66da679ac8f54d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*|5.*"
+            },
+            "suggest": {
+                "ext-libsodium": "Provides a modern crypto API that can be used to generate random bytes."
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "lib/random.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Paragon Initiative Enterprises",
+                    "email": "security@paragonie.com",
+                    "homepage": "https://paragonie.com"
+                }
+            ],
+            "description": "PHP 5.x polyfill for random_bytes() and random_int() from PHP 7",
+            "keywords": [
+                "csprng",
+                "pseudorandom",
+                "random"
+            ],
+            "time": "2017-03-13T16:27:32+00:00"
+        },
+        {
+            "name": "phpixie/database",
+            "version": "3.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPixie/Database.git",
+                "reference": "4e96c3c9e4f68aa944ff99f91b8e7cb27d329237"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPixie/Database/zipball/4e96c3c9e4f68aa944ff99f91b8e7cb27d329237",
+                "reference": "4e96c3c9e4f68aa944ff99f91b8e7cb27d329237",
+                "shasum": ""
+            },
+            "require": {
+                "phpixie/slice": "~3.0",
+                "psr/log": "~1.0.2"
+            },
+            "require-dev": {
+                "phpixie/test": "~3.0"
+            },
+            "suggest": {
+                "mongodb/mongodb": "Required for MongoDB support"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PHPixie\\": "src/PHPixie",
+                    "PHPixie\\Tests\\": "tests/PHPixie/Tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Tsiupa",
+                    "email": "draconyster@gmail.com",
+                    "homepage": "http://dracony.org"
+                }
+            ],
+            "description": "PHPixie Database library",
+            "homepage": "http://phpixie.com",
+            "keywords": [
+                "database",
+                "mysql",
+                "postgresql",
+                "sqlite"
+            ],
+            "time": "2017-03-13T18:26:06+00:00"
+        },
+        {
+            "name": "phpixie/slice",
+            "version": "3.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHPixie/Slice.git",
+                "reference": "4435da2e2f877b899380c64c86e1bd55795c615c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHPixie/Slice/zipball/4435da2e2f877b899380c64c86e1bd55795c615c",
+                "reference": "4435da2e2f877b899380c64c86e1bd55795c615c",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpixie/test": "~3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PHPixie\\": "src/PHPixie",
+                    "PHPixie\\Tests\\": "tests/PHPixie/Tests"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Tsiupa",
+                    "email": "draconyster@gmail.com",
+                    "homepage": "http://dracony.org"
+                }
+            ],
+            "description": "Slice library for PHPixie",
+            "homepage": "http://phpixie.com",
+            "keywords": [
+                "array",
+                "data",
+                "parameters"
+            ],
+            "time": "2016-06-12T08:07:30+00:00"
+        },
+        {
+            "name": "pimple/pimple",
+            "version": "v3.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silexphp/Pimple.git",
+                "reference": "a30f7d6e57565a2e1a316e1baf2a483f788b258a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silexphp/Pimple/zipball/a30f7d6e57565a2e1a316e1baf2a483f788b258a",
+                "reference": "a30f7d6e57565a2e1a316e1baf2a483f788b258a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "Pimple": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "http://pimple.sensiolabs.org",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "time": "2015-09-11T15:10:35+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        },
+        {
+            "name": "psr/log",
+            "version": "1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "time": "2016-10-10T12:19:37+00:00"
+        },
+        {
+            "name": "slim/csrf",
+            "version": "0.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/Slim-Csrf.git",
+                "reference": "96f2019d2626d71985dc0ca41948f49c3454f4d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/Slim-Csrf/zipball/96f2019d2626d71985dc0ca41948f49c3454f4d1",
+                "reference": "96f2019d2626d71985dc0ca41948f49c3454f4d1",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/random_compat": "^1.1|^2.0",
+                "php": ">=5.5.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0",
+                "slim/slim": "~3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\Csrf\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Josh Lockhart",
+                    "email": "hello@joshlockhart.com",
+                    "homepage": "http://joshlockhart.com"
+                }
+            ],
+            "description": "Slim Framework 3 CSRF protection middleware",
+            "homepage": "http://slimframework.com",
+            "keywords": [
+                "csrf",
+                "framework",
+                "middleware",
+                "slim"
+            ],
+            "time": "2016-12-20T20:45:43+00:00"
+        },
+        {
+            "name": "slim/php-view",
+            "version": "2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/PHP-View.git",
+                "reference": "122ed121a8d9cf91a94020814d2a3ee6c836754f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/PHP-View/zipball/122ed121a8d9cf91a94020814d2a3ee6c836754f",
+                "reference": "122ed121a8d9cf91a94020814d2a3ee6c836754f",
+                "shasum": ""
+            },
+            "require": {
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8",
+                "slim/slim": "^3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\Views\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Glenn Eggleton",
+                    "email": "geggleto@gmail.com"
+                }
+            ],
+            "description": "Render PHP view scripts into a PSR-7 Response object.",
+            "keywords": [
+                "framework",
+                "php",
+                "phtml",
+                "renderer",
+                "slim",
+                "template",
+                "view"
+            ],
+            "time": "2016-10-11T07:43:08+00:00"
+        },
+        {
+            "name": "slim/slim",
+            "version": "3.8.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/slimphp/Slim.git",
+                "reference": "5385302707530b2bccee1769613ad769859b826d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/slimphp/Slim/zipball/5385302707530b2bccee1769613ad769859b826d",
+                "reference": "5385302707530b2bccee1769613ad769859b826d",
+                "shasum": ""
+            },
+            "require": {
+                "container-interop/container-interop": "^1.2",
+                "nikic/fast-route": "^1.0",
+                "php": ">=5.5.0",
+                "pimple/pimple": "^3.0",
+                "psr/container": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "provide": {
+                "psr/http-message-implementation": "1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0",
+                "squizlabs/php_codesniffer": "^2.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Slim\\": "Slim"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rob Allen",
+                    "email": "rob@akrabat.com",
+                    "homepage": "http://akrabat.com"
+                },
+                {
+                    "name": "Josh Lockhart",
+                    "email": "hello@joshlockhart.com",
+                    "homepage": "https://joshlockhart.com"
+                },
+                {
+                    "name": "Gabriel Manricks",
+                    "email": "gmanricks@me.com",
+                    "homepage": "http://gabrielmanricks.com"
+                },
+                {
+                    "name": "Andrew Smith",
+                    "email": "a.smith@silentworks.co.uk",
+                    "homepage": "http://silentworks.co.uk"
+                }
+            ],
+            "description": "Slim is a PHP micro framework that helps you quickly write simple yet powerful web applications and APIs",
+            "homepage": "https://slimframework.com",
+            "keywords": [
+                "api",
+                "framework",
+                "micro",
+                "router"
+            ],
+            "time": "2017-03-19T17:55:20+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
